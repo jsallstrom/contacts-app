@@ -1,0 +1,67 @@
+
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list__button-align-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.list__favourites-button{
+    width: 15rem;
+    color: $white;
+    text-align: right;
+    cursor: pointer;
+    
+}
+
+
+.list-item{
+    background: $blue-steel;
+    
+    height: 5rem;
+    display: flex;
+    margin: 1px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    
+}
+
+
+.list-item__title{
+    padding-left: 2rem;
+    color: $white;
+    
+    
+}
+
+@media (min-width: $desktop-breakpoint) {
+	// Just a simple example of change, not the objective of the assignment
+	.list {
+        flex-direction: row; 
+        
+	}
+
+	
+
+    .list-item__title{
+        padding-left: 0.5rem;
+        color: red;
+        
+        
+    }
+
+
+}
+
+
+
+
+

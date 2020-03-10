@@ -1,0 +1,60 @@
+
+
+
+
+.modal {
+    position: absolute;
+    background-color: $light-grey-white;
+    top: 7rem;
+    left: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 0.5rem;
+
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+
+
+.modal__top-box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: $medium-size;
+    padding-right: $medium-size;
+    margin-bottom: 0;
+}
+
+.modal__top-box__item{
+    display: flex;
+    
+    
+}
+
+
+.modal__title {
+	padding-right: $small-size;
+}
+
+.modal__p-tag {
+	
+	padding-left: $medium-size;
+	word-breaK: break-all; 
+}
+
+
+.modal__star{
+    cursor: pointer;
+}
+
+.modal__close {
+    cursor: pointer;
+}
+
+

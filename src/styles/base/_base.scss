@@ -1,28 +1,22 @@
-
-
 html {
-	
-	font-size: 62.25%;
-	// now 1 rem = 10 pixels, because we do this calculation first 16 *0.625 = 10
+     font-size: 62.25%;
+     // now 1 rem = 10 pixels, because we do this calculation first 16 *0.625 = 10
 }
 
-
 body {
-	font-family: Helvetica, Arial, sans-serif;
+     font-family: Helvetica, Arial, sans-serif;
 
-	font-size: $medium-size; 
+     font-size: $medium-size;
 }
 
 button {
-	cursor: pointer; 
+     cursor: pointer;
 }
 
 button:disabled {
-	cursor: default; 
+     cursor: default;
 }
 
-
-
 .is-active {
-	font-weight: bold;
+     font-weight: bold;
 }

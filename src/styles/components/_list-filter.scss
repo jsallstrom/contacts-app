@@ -1,24 +1,13 @@
+.input {
+     background: $blue-steel;
 
-
-
-
-
-
-.input{
-    background: $blue-steel;
-    
-    height: 4rem;
-    display: flex;
-    margin: 1px;
-    align-items: center;
-    border: none;
-    border-radius: 0.5rem;
-    color: $light-grey-white;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    
+     height: 4rem;
+     display: flex;
+     margin: 1px;
+     align-items: center;
+     border: none;
+     border-radius: 0.5rem;
+     color: $light-grey-white;
+     padding-left: 2rem;
+     padding-right: 2rem;
 }
-
-
-
-

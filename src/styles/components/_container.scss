@@ -1,16 +1,9 @@
-
-
-
-.container{
-    display:flex;
-    flex-direction: column;
-    padding: $large-size; 
-
+.container {
+     display: flex;
+     flex-direction: column;
+     padding: $large-size;
 }
 
-
-.container__title{
-    color: $white;
+.container__title {
+     color: $white;
 }
-
-
